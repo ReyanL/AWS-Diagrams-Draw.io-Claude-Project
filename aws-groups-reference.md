@@ -4,16 +4,16 @@
 
 Groups in AWS diagrams are container elements that represent logical boundaries. They must be properly nested following AWS architecture conventions.
 
-### Nesting Hierarchy (Outside â†’ Inside)
+### Nesting Hierarchy (Outside -> Inside)
 ```
 AWS Cloud
-  â””â”€â”€ Region
-        â””â”€â”€ VPC
-              â”œâ”€â”€ Availability Zone
-              â”‚     â”œâ”€â”€ Public Subnet
-              â”‚     â””â”€â”€ Private Subnet
-              â””â”€â”€ Security Group
-                    â””â”€â”€ Auto Scaling Group / EKS Cluster / ECS Cluster
+  └── Region
+        └── VPC
+              ├── Availability Zone
+              │     ├── Public Subnet
+              │     └── Private Subnet
+              └── Security Group
+                    └── Auto Scaling Group / EKS Cluster / ECS Cluster
 ```
 
 ---
