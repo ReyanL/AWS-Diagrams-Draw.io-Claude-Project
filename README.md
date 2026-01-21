@@ -18,6 +18,7 @@ This project transforms Claude Desktop into a specialized AWS architecture diagr
 AWS-Diagrams-Draw.io-Claude-Project/
 ├── README.md                          # This documentation
 ├── INSTRUCTIONS.md                    # Main instructions for Claude
+├── hello-world.drawio                 # Example diagram for quick testing
 ├── aws-icons-reference.md            # Complete AWS icon catalog with XML snippets
 ├── aws-groups-reference.md            # Container/group definitions (VPC, Subnets, etc.)
 ├── aws-connections-reference.md      # Connection style patterns
@@ -27,6 +28,7 @@ AWS-Diagrams-Draw.io-Claude-Project/
 ### File Descriptions
 
 - **`INSTRUCTIONS.md`**: Core instructions that guide Claude on how to generate diagrams, including icon conventions, color palettes, grouping rules, and best practices
+- **`hello-world.drawio`**: Example diagram demonstrating a simple web application architecture (ALB, EC2 instances, VPC structure)
 - **`aws-icons-reference.md`**: Comprehensive catalog of all AWS 4.0 service icons with XML code snippets for each service category
 - **`aws-groups-reference.md`**: Reference for creating proper container groups (AWS Cloud, Regions, VPCs, Subnets, Availability Zones)
 - **`aws-connections-reference.md`**: Patterns for creating connections between services with appropriate colors and line styles
@@ -71,6 +73,21 @@ If you haven't already, download and install Claude Desktop from [Anthropic's we
 6. Copy the reference files content to the project reference files field.
 
 ## Usage Guide
+
+### Quick Start: Test with Example Diagram
+
+To quickly verify that everything is set up correctly:
+
+1. Open the included `hello-world.drawio` file in [app.diagrams.net](https://app.diagrams.net) or draw.io desktop
+2. This example demonstrates:
+   - AWS Cloud → Region → VPC hierarchy
+   - Two Availability Zones (us-east-1a and us-east-1b)
+   - Public and Private Subnets with proper CIDR notation
+   - Application Load Balancer and EC2 instances
+   - Internet Gateway and proper connections
+   - Official AWS 4.0 icons with correct colors
+
+This file serves as a reference for the expected output format and can help you verify that your draw.io installation supports AWS 4.0 icons correctly.
 
 ### Basic Usage: Text Description
 
