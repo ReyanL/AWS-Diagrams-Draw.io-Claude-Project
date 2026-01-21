@@ -17,7 +17,7 @@ This project transforms Claude Desktop into a specialized AWS architecture diagr
 ```
 AWS-Diagrams-Draw.io-Claude-Project/
 ├── README.md                          # This documentation
-├── instructions.md                    # Main instructions for Claude
+├── INSTRUCTIONS.md                    # Main instructions for Claude
 ├── aws-icons-reference.md            # Complete AWS icon catalog with XML snippets
 ├── aws-groups-reference.md            # Container/group definitions (VPC, Subnets, etc.)
 ├── aws-connections-reference.md      # Connection style patterns
@@ -26,7 +26,7 @@ AWS-Diagrams-Draw.io-Claude-Project/
 
 ### File Descriptions
 
-- **`instructions.md`**: Core instructions that guide Claude on how to generate diagrams, including icon conventions, color palettes, grouping rules, and best practices
+- **`INSTRUCTIONS.md`**: Core instructions that guide Claude on how to generate diagrams, including icon conventions, color palettes, grouping rules, and best practices
 - **`aws-icons-reference.md`**: Comprehensive catalog of all AWS 4.0 service icons with XML code snippets for each service category
 - **`aws-groups-reference.md`**: Reference for creating proper container groups (AWS Cloud, Regions, VPCs, Subnets, Availability Zones)
 - **`aws-connections-reference.md`**: Patterns for creating connections between services with appropriate colors and line styles
@@ -67,7 +67,7 @@ If you haven't already, download and install Claude Desktop from [Anthropic's we
 2. Click on the **Projects** icon in the sidebar
 3. Click on the **New Project** button
 4. Give a name to the project and describe the project in the description field.
-5. Copy the instructions.md content to the project instructions field.
+5. Copy the INSTRUCTIONS.md content to the project instructions field.
 6. Copy the reference files content to the project reference files field.
 
 ## Usage Guide
@@ -210,7 +210,7 @@ This project is provided as-is for use with Claude Desktop. The AWS icons and dr
 
 For issues or questions:
 1. Check the reference files for icon names and patterns
-2. Review the examples in `instructions.md`
+2. Review the examples in `INSTRUCTIONS.md`
 3. Verify your Claude Desktop configuration
 
 ---
